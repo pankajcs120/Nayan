@@ -33,7 +33,7 @@ function App() {
   const [message,setMessage]=useState("");
 
   useEffect(()=>{
-    fetch("http://localhost:8800/api/").then(res=>res.json()).then(data=>setMessage(data.message));
+    fetch("https://nayan-backend.onrender.com/api").then(res=>res.json()).then(data=>setMessage(data.message));
   })
 
   const Layout = () => {
