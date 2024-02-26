@@ -5,13 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-   
-    "install-server": "cd api && yarn install",
-    "start-server": "cd api && nodemon server.js ",
-    "install-client": "cd client && yarn install ",
-    "build-client": "cd client && yarn run build ",
-    "start-client": "cd client && yarn run start "
-
+"start": "nodemon server.js",
+    "build": "yarn i"
   },
   "keywords": [],
   "author": "",
