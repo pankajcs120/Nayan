@@ -26,7 +26,7 @@ mongoose.connect(process.env.MONGO_DB,{
 .catch((error)=>console.log(error));
 
 const corsOptions={
-  origin:"https://nayan-frontend.onrender.com/"
+  origin:"https://nayan-frontend.onrender.com/api"
 }
 
 app.use(cors({ origin: corsOptions, credentials: true }));
