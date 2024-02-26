@@ -1,0 +1,171 @@
+// // .orders {
+// //   display: flex;
+// //   justify-content: center;
+// //   color: #555;
+
+// //   .container {
+// //     width: 1400px;
+// //     padding: 50px 0px;
+
+// //     .title {
+// //       display: flex;
+// //       justify-content: space-between;
+
+// //       button {
+// //         background-color: #1dbf73;
+// //         color: white;
+// //         font-weight: 500;
+// //         border: none;
+// //         padding: 10px;
+// //         cursor: pointer;
+// //       }
+// //     }
+
+// //     table {
+// //       width: 100%;
+
+// //       tr {
+// //         height: 50px;
+// //         th {
+// //           text-align: left;
+// //         }
+// //         td {
+          
+// //           sup{
+// //             font-size: 12px;
+// //           }
+
+// //           .image {
+// //             width: 50px;
+// //             height: 25px;
+// //             object-fit: cover;
+// //           }
+
+// //           .message {
+// //             width: 25px;
+// //             cursor: pointer;
+// //           }
+// //         }
+// //         &:nth-child(even) {
+// //           background-color: #1dbf730f;
+// //         }
+// //       }
+// //     }
+// //   }
+// // }
+
+
+// .booki {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 95vh;
+//   background-color: #f2f2f2;
+//   background-image: url('https://img.freepik.com/free-photo/elevated-view-laptop-stationeries-yellow-backdrop_23-2147880496.jpg'); /* Replace with the path to your background image */
+//   background-size: cover;
+//   background-position: center;
+// }
+
+// .contai{
+//   max-width: 800px;
+//   margin: 0 auto;
+//   padding: 20px;
+//   background-color: #fff;
+//   border-radius: 8px;
+//   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+// }
+
+// .titl {
+//   text-align: center;
+//   margin-bottom: 20px;
+
+//   h1 {
+//     font-size: 24px;
+//     color: #333;
+//   }
+// }
+
+// table {
+//   width: 100%;
+//   border-collapse: collapse;
+// }
+
+// th, td {
+//   border: 1px solid #ddd;
+//   padding: 8px;
+//   text-align: left;
+// }
+
+// th {
+//   background-color: #f2f2f2;
+//   color: #333;
+// }
+
+// tr:nth-child(even) {
+//   background-color: #f9f9f9;
+// }
+
+// tr:hover {
+//   background-color: #ddd;
+// }
+//-----------3-----------------
+
+.bookin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url('https://img.freepik.com/free-photo/elevated-view-laptop-stationeries-yellow-backdrop_23-2147880496.jpg'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.contar {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.tit {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+  .messag{
+     /* Add this line */
+     text-align: center;
+     padding-left: 100px;
+    width: 15%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e5e5e5;
+}
