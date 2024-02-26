@@ -25,8 +25,13 @@ mongoose.connect(process.env.MONGO_DB,{
 )
 .catch((error)=>console.log(error));
 
+// Serve static files from the "public" folder
+app.use(express.static('public'));
+
+
+
 const corsOptions={
-  origin:"http://localhost:5713"
+  origin:"https://nayan-frontend.onrender.com"
 }
 
 app.use(cors({ origin: corsOptions, credentials: true }));
@@ -34,7 +39,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 // route
-app.get("/api/",(req,res)=>{
+app.get("/",(req,res)=>{
   res.status(201).json({message:"Connected to backend"})
 })
 
