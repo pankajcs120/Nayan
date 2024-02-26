@@ -26,7 +26,7 @@ mongoose.connect(process.env.MONGO_DB,{
 .catch((error)=>console.log(error));
 
 const corsOptions={
-  origin:"https://nayan-frontend.onrender.com/api"
+  origin:"https://nayan-frontend.onrender.com"
 }
 
 app.use(cors({ origin: corsOptions, credentials: true }));
@@ -34,7 +34,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 // route
-app.get("/api/",(req,res)=>{
+app.get("/",(req,res)=>{
   res.status(201).json({message:"Connected to backend"})
 })
 
