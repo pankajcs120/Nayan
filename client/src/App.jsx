@@ -39,11 +39,11 @@ function App() {
   const Layout = () => {
     return (
       <div className="app">
-        {/* <QueryClientProvider client={queryClient}>
+        {<QueryClientProvider client={queryClient}>
           <Navbar />
           <Outlet />
           <Footer />
-        </QueryClientProvider> */
+        </QueryClientProvider> 
         }
         <h1>{message}</h1>
       </div>
