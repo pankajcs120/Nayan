@@ -34,7 +34,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 // route
-app.get("/",(req,res)=>{
+app.get("/api",(req,res)=>{
   res.status(201).json({message:"Connected to backend"})
 })
 
