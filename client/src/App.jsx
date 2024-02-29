@@ -33,17 +33,17 @@ function App() {
   const [message,setMessage]=useState("");
 
   useEffect(()=>{
-    fetch("https://nayan-backend.onrender.com").then(res=>res.json()).then(data=>setMessage(data.message));
+    fetch("http://localhost:8800/api/").then(res=>res.json()).then(data=>setMessage(data.message));
   })
 
   const Layout = () => {
     return (
       <div className="app">
-        { <QueryClientProvider client={queryClient}>
+        {/* <QueryClientProvider client={queryClient}>
           <Navbar />
           <Outlet />
           <Footer />
-        </QueryClientProvider>
+        </QueryClientProvider> */
         }
         <h1>{message}</h1>
       </div>
