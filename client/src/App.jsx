@@ -30,22 +30,18 @@ import Success from "./pages/success/Success";
 function App() {
   const queryClient = new QueryClient();
 
-  const [message,setMessage]=useState("");
-
-  useEffect(()=>{
-    fetch("http://localhost:8800/api/").then(res=>res.json()).then(data=>setMessage(data.message));
-  })
+ 
 
   const Layout = () => {
     return (
       <div className="app">
-        {<QueryClientProvider client={queryClient}>
+        <QueryClientProvider client={queryClient}>
           <Navbar />
           <Outlet />
           <Footer />
         </QueryClientProvider> 
-        }
-        <h1>{message}</h1>
+        
+        
       </div>
     );
   };
