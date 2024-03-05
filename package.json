@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install-server":"cd api && yarn install",
     "start-server": "cd api && node server.js ",
     "install-client": "cd client && yarn install ",
     "build-client": "cd client && yarn run build ",
