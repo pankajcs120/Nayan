@@ -2,7 +2,7 @@
   "name": "pratham-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "install-server":"cd api && yarn install",
     "start-server": "cd api && node server.js ",
